@@ -10,3 +10,33 @@ JTT1078 协议是基于JT808协议制定的车载视频标准。这个协议采�
 
 一个通常的视频平台通常由下面框架构成：
 
+![](https://github.com/Car-eye-team/JTT1078-media-server/blob/master/%E5%B9%B3%E5%8F%B0%E6%9E%B6%E6%9E%84.png)    
+
+其中JT1078视频服务器解释了JTT1078 协议中的5.5.3 负载包，并将其中的流转化成通用的RTSP/RTMP数据流给流媒体服务器，方便客户端使用。
+
+## 该功能模块主要实现那部分内容
+
+本模块主要实现对JT1078 标准中5.5.3 的服务器部分实现，同时将负载包转化成通用流推送到RTSP/RTMP服务器
+
+
+
+# 商业合作
+
+JTT1078-media-server 商业用户需要鉴权，具体请联系团队管理人员
+
+
+# 联系我们   
+
+car-eye 开源官方网址：www.car-eye.cn     
+
+car-eye 流媒体平台网址：www.liveoss.com     
+
+car-eye 技术官方邮箱: support@car-eye.cn   
+
+car-eye技术交流QQ群: 590411159      
+
+![](https://github.com/Car-eye-team/Car-eye-server/blob/master/car-server/doc/QQ.jpg)    
+
+CopyRight©  car-eye 开源团队 2018 
+
+
